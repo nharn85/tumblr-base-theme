@@ -128,6 +128,11 @@
     .chat {
 
     }
+    
+    .chat li {
+      border-bottom: 1px dotted black;
+      width: 90%;
+    }
 
     /* ============================================= */
 
@@ -550,7 +555,7 @@
         {block:Lines}
         <li class="{Alt} user-{UserNumber}">
           {block:Label}
-            <span>{Label}</span>
+            <span><strong>{Label}</strong></span>
           {/block:Label}
           {Line}
         </li>
